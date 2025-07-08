@@ -20,7 +20,7 @@ Built using **HTML, CSS, and JavaScript** — fully frontend-only and ready to h
 
 ### 🚀 Live Demo
 
-🔗 [View Live on GitHub Pages](https://sankhadeep-ghosh.github.io/password-tool/)  
+🔗 [View Live on GitHub Pages](https://sankhadeep-ghosh.github.io/Password-Strength-Checker/)  
 
 ---
 
