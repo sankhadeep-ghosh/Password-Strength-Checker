@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Password Tool</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Password Strength Checker</h1>
+    <input id="pw-input" type="text" placeholder="Enter a password..." />
+    <button onclick="checkStrength()">Check Strength</button>
+    <div id="strength-result"></div>
+    <div id="reasons"></div>
+
+    <hr />
+
+    <h2>Password Generator</h2>
+    <label>Length: <input type="number" id="gen-length" value="12" /></label><br />
+    <label><input type="checkbox" id="upper" checked /> Include uppercase</label><br />
+    <label><input type="checkbox" id="digits" checked /> Include digits</label><br />
+    <label><input type="checkbox" id="symbols" checked /> Include symbols</label><br />
+    <button onclick="generatePassword()">Generate</button>
+    <div id="generated-password"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
